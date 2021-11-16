@@ -1,0 +1,37 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=sumator_sc
+
+[Library]
+sumator_sc=.\sumator_sc.lib
+
+[$LibMap$]
+sumator_sc=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/test.bde=-1
+
+[Files.Data]
+.\src\test.bde=Block Diagram
+.\compile\test.vhd=VHDL Source Code
+
+[file_out:/test.bde]
+/\compile\test.vhd=-1

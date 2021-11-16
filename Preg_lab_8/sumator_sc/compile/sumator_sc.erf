@@ -1,0 +1,6 @@
+MESSAGE "File: .\test.vhd" 
+MESSAGE "Compile Entity "test"" 
+MESSAGE "Compile Architecture "test" of Entity "test"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   test" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 
