@@ -28,10 +28,18 @@ UCF=
 
 [Files]
 /test.bde=-1
+/Sumator_Scazator_1bit.bde=-1
+/Waveform Editor 2.awf=-1
+/Waveform Editor 1.awf=-1
 
 [Files.Data]
 .\src\test.bde=Block Diagram
-.\compile\test.vhd=VHDL Source Code
+.\src\Sumator_Scazator_1bit.bde=Block Diagram
+.\src\Waveform Editor 2.awf=Waveform File
+.\src\Waveform Editor 1.awf=Waveform File
 
 [file_out:/test.bde]
 /\compile\test.vhd=-1
+
+[file_out:/Sumator_Scazator_1bit.bde]
+/\compile\Sumator_Scazator_1bit.vhd=-1

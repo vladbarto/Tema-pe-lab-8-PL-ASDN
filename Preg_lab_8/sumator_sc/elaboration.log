@@ -1,15 +1,39 @@
-elbread.dll ver. 1.0.5.365 Wed Nov 17 00:35:37 2021
+elbread.dll ver. 1.0.5.365 Wed Nov 17 01:01:14 2021
 
 
------------------------------------
-Entity  | Architecture | Library 
------------------------------------
-test    | test         | sumator_sc
------------------------------------
+-----------------------------------------------------------
+Entity                 | Architecture          | Library 
+-----------------------------------------------------------
+sumator_scazator_1bit  | sumator_scazator_1bit | sumator_sc
+xor2                   | xor2_v                | xc9500
+OR2                    | or2_v                 | xc9500
+OR3                    | or3_v                 | xc9500
+OR4                    | or4_v                 | xc9500
+AND5                   | and5_v                | xc9500
+AND4                   | and4_v                | xc9500
+AND3                   | and3_v                | xc9500
+AND2                   | and2_v                | xc9500
+OR5                    | or5_v                 | xc9500
+GND                    | gnd_v                 | xc9500
+AND3B1                 | and3b1_v              | xc9500
+AND3B2                 | and3b2_v              | xc9500
+-----------------------------------------------------------
 
--------------------------
-Package         | Library
--------------------------
-standard        | std
-std_logic_1164  | ieee
--------------------------
+-----------------
+Unit    | Library
+-----------------
+add4    | xc9500
+-----------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+textio              | std
+vital_timing        | ieee
+vital_primitives    | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+vpkg                | xc9500
+-----------------------------

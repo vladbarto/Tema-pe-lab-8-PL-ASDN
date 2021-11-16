@@ -1,4 +1,14 @@
 [Files List]
 d:\programs\active hdl 6.3\VLIB\STD/src/standard.vhd=S
 d:\programs\active hdl 6.3\VLIB\IEEE/src/stdlogic.vhd=S
-D:\UTCN\Proiectare Logica Laboaratoare CE LUCREZ\Tema-pe-lab-8-PL-ASDN\Preg_lab_8\sumator_sc/compile/test.vhd=S
+d:\programs\active hdl 6.3\VLIB\STD/src/textio.vhd=S
+d:\programs\active hdl 6.3\VLIB\STD/src/textio_b.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/timing_p_2000.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/timing_b_2000.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/prmtvs_p_2000.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/prmtvs_b_2000.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/arith.vhd=S
+d:\programs\active hdl 6.3\VLIB\IEEE/src/unsigned.vhd=S
+d:\programs\active hdl 6.3\vlib\xc9500/src/xc9500.vhd=S
+d:\programs\active hdl 6.3\vlib\xc9500/./compile/add4.edn=S
+D:\UTCN\Proiectare Logica Laboaratoare CE LUCREZ\Tema-pe-lab-8-PL-ASDN\Preg_lab_8\sumator_sc/compile/Sumator_Scazator_1bit.vhd=S

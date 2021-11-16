@@ -1,3 +1,5 @@
-11
+49
+~E 1 "./compile/Sumator_Scazator_1bit.vhd" 32 sumator_scazator_1bit
+~A 1 "./compile/Sumator_Scazator_1bit.vhd" 51 sumator_scazator_1bit
 ~E 1 "./compile/test.vhd" 25 test
 ~A 1 "./compile/test.vhd" 33 test

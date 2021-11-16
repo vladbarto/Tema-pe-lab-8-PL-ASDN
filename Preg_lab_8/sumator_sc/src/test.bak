@@ -2,7 +2,7 @@ SCHM0102
 
 HEADER
 {
- FREEID 29
+ FREEID 90
  VARIABLES
  {
   #ARCHITECTURE="test"
@@ -28,6 +28,120 @@ PAGE ""
  
  BODY
  {
+  INSTANCE  29, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="and2"
+    #LIBRARY="#builtin"
+    #REFERENCE="U1"
+    #SYMBOL="and2"
+   }
+   COORD (760,540)
+   VERTEXES ( (4,37), (6,51), (2,60) )
+  }
+  INSTANCE  30, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #LIBRARY="#terminals"
+    #REFERENCE="Output0"
+    #SYMBOL="Output"
+   }
+   COORD (920,580)
+   VERTEXES ( (2,36) )
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (972,563,1077,598)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 30
+  }
+  NET WIRE  35, 0, 0
+  VTX  36, 0, 0
+  {
+   COORD (920,580)
+  }
+  VTX  37, 0, 0
+  {
+   COORD (920,580)
+  }
+  WIRE  38, 0, 0
+  {
+   NET 35
+   VTX 36, 37
+  }
+  INSTANCE  44, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="Input0"
+    #SYMBOL="Input"
+   }
+   COORD (760,560)
+   VERTEXES ( (2,50) )
+  }
+  TEXT  45, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (628,543,709,578)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 44
+  }
+  NET WIRE  49, 0, 0
+  VTX  50, 0, 0
+  {
+   COORD (760,560)
+  }
+  VTX  51, 0, 0
+  {
+   COORD (760,560)
+  }
+  WIRE  52, 0, 0
+  {
+   NET 49
+   VTX 50, 51
+  }
+  INSTANCE  53, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #LIBRARY="#terminals"
+    #REFERENCE="Input1"
+    #SYMBOL="Input"
+   }
+   COORD (760,600)
+   VERTEXES ( (2,59) )
+  }
+  TEXT  54, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (628,583,709,618)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 53
+  }
+  NET WIRE  58, 0, 0
+  VTX  59, 0, 0
+  {
+   COORD (760,600)
+  }
+  VTX  60, 0, 0
+  {
+   COORD (760,600)
+  }
+  WIRE  61, 0, 0
+  {
+   NET 58
+   VTX 59, 60
+  }
  }
  
 }
@@ -50,7 +164,7 @@ PAGE ""
  
  BODY
  {
-  TEXT  1, 0, 0
+  TEXT  62, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -61,7 +175,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  2, 0, 0
+  TEXT  63, 0, 0
   {
    PAGEALIGN 10
    TEXT "$CREATIONDATE"
@@ -72,7 +186,7 @@ PAGE ""
    FONT (12,0,0,700,0,128,0,"Arial")
    UPDATE 0
   }
-  TEXT  3, 0, 0
+  TEXT  64, 0, 0
   {
    PAGEALIGN 10
    TEXT "Title:"
@@ -82,7 +196,7 @@ PAGE ""
    COLOR (0,0,0)
    FONT (12,0,0,700,0,0,0,"Arial")
   }
-  TEXT  4, 0, 0
+  TEXT  65, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 5,1, (0,0,0)
@@ -94,34 +208,34 @@ PAGE ""
    FONT (12,0,0,700,0,128,0,"Arial")
    UPDATE 0
   }
-  LINE  5, 0, 0
+  LINE  66, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (128,128,128)
    POINTS ( (1130,1380), (2000,1380) )
    FILL (1,(0,0,0),0)
   }
-  LINE  6, 0, 0
+  LINE  67, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (128,128,128)
    POINTS ( (1130,1440), (2000,1440) )
    FILL (1,(0,0,0),0)
   }
-  LINE  7, 0, 0
+  LINE  68, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (128,128,128)
    POINTS ( (1300,1380), (1300,1500) )
   }
-  LINE  8, 0, 0
+  LINE  69, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (128,128,128)
    POINTS ( (2000,1500), (2000,1240), (1130,1240), (1130,1500), (2000,1500) )
    FILL (1,(0,0,0),0)
   }
-  TEXT  9, 0, 0
+  TEXT  70, 0, 0
   {
    PAGEALIGN 10
    TEXT 
@@ -134,34 +248,34 @@ PAGE ""
    FONT (12,0,0,700,0,0,0,"Arial")
    MULTILINE
   }
-  LINE  10, 0, 0
+  LINE  71, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (128,128,128)
    POINTS ( (1440,1240), (1440,1380) )
   }
-  LINE  11, 0, 0
+  LINE  72, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,4, (0,4,255)
    POINTS ( (1616,1304), (1682,1304) )
    FILL (0,(0,4,255),0)
   }
-  LINE  12, 0, 0
+  LINE  73, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1585,1300), (1585,1300) )
    FILL (0,(0,4,255),0)
   }
-  LINE  13, 0, 0
+  LINE  74, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,3, (0,4,255)
    POINTS ( (1634,1304), (1650,1264) )
    FILL (0,(0,4,255),0)
   }
-  TEXT  14, -4, 0
+  TEXT  75, -4, 0
   {
    PAGEALIGN 10
    OUTLINE 5,0, (49,101,255)
@@ -171,14 +285,14 @@ PAGE ""
    COLOR (0,4,255)
    FONT (36,0,0,700,0,0,0,"Arial")
   }
-  LINE  15, 0, 0
+  LINE  76, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,3, (0,4,255)
    POINTS ( (1576,1264), (1551,1327) )
    FILL (0,(0,4,255),0)
   }
-  BEZIER  16, 0, 0
+  BEZIER  77, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,3, (0,4,255)
@@ -186,70 +300,70 @@ PAGE ""
    ORIGINS ( (1583,1290), (1616,1304), (1583,1315), (1583,1290) )
    CONTROLS (( (1607,1290), (1615,1289)),( (1613,1315), (1610,1315)),( (1583,1307), (1583,1302)) )
   }
-  LINE  17, 0, 0
+  LINE  78, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,4, (0,4,255)
    POINTS ( (1495,1311), (1583,1311) )
    FILL (0,(0,4,255),0)
   }
-  LINE  18, 0, 0
+  LINE  79, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,4, (0,4,255)
    POINTS ( (1502,1294), (1583,1294) )
    FILL (0,(0,4,255),0)
   }
-  LINE  19, 0, 0
+  LINE  80, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1688,1271), (1511,1271) )
    FILL (0,(0,4,255),0)
   }
-  LINE  20, 0, 0
+  LINE  81, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1686,1278), (1508,1278) )
    FILL (0,(0,4,255),0)
   }
-  LINE  21, 0, 0
+  LINE  82, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1700,1286), (1506,1286) )
    FILL (0,(0,4,255),0)
   }
-  LINE  22, 0, 0
+  LINE  83, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1702,1294), (1510,1294) )
    FILL (0,(0,4,255),0)
   }
-  LINE  23, 0, 0
+  LINE  84, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1615,1302), (1499,1302) )
    FILL (0,(0,4,255),0)
   }
-  LINE  24, 0, 0
+  LINE  85, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1680,1311), (1495,1311) )
    FILL (0,(0,4,255),0)
   }
-  LINE  25, 0, 0
+  LINE  86, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1673,1319), (1492,1319) )
    FILL (0,(0,4,255),0)
   }
-  TEXT  26, 0, 0
+  TEXT  87, 0, 0
   {
    PAGEALIGN 10
    TEXT "The Design Verification Company"
@@ -258,14 +372,14 @@ PAGE ""
    COLOR (0,4,255)
    FONT (12,0,0,700,1,0,0,"Arial")
   }
-  LINE  27, 0, 0
+  LINE  88, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
    POINTS ( (1667,1327), (1489,1327) )
    FILL (0,(0,4,255),0)
   }
-  LINE  28, 0, 0
+  LINE  89, 0, 0
   {
    PAGEALIGN 10
    OUTLINE 0,1, (0,4,255)
